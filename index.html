@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сытый волк</title>
+    <style>
+    /* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: ;
+}
+
+h1 {
+    color: blue;
+}
+
+#myButton {
+    padding: 10px 20px;
+    background-color: 00ffff;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body {
+            background-color:#;
+        }
+        
+        #miButton {
+    padding: 10px 20px;
+    background-color: 00ffff;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+        #laButton {
+    padding: 10px 20px;
+    background-color: 00ffff;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.light-theme {
+    background-color: #fff;
+    color: #333;
+}
+
+body.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+    </style>
+    <!-- Подключение внешнего файла стилей -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Сытый волк</h1>
+    <h3>good mix</h3>
+    <button id="myButton">Купить 85₽</button>
+    <!-- Подключение внешнего скрипта -->
+    <script src="script.js"></script>
+    <script>
+    // Добавляем обработчик события нажатия кнопки
+document.getElementById('myButton').addEventListener('click', function() {
+    alert('Куплено!');
+ }); 
+</script>
+<h3>Choco Boy</h3>
+<button id="miButton">Купить 70₽</button>
+<script>
+// Добавляем обработчик события нажатия кнопки
+document.getElementById('miButton').addEventListener('click', function() {
+    alert('Куплено!');
+ });
+    </script>
+    <h3>Chupa Chups роллсы</h3>
+        <button id="laButton">Купить 85₽</button>
+        <script>
+    // Добавляем обработчик события нажатия кнопки
+document.getElementById('laButton').addEventListener('click', function() {
+    alert('Куплено!');
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-theme');
+        body.classList.toggle('light-theme');
+    });
+});
+</script>
+</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Переключение тем</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body></br>
+</br>
+</br>
+</br>
+</br>
+</br>
+    <button id="theme-toggle">Переключить тему</button>
+    <script src="script.js"></script>
+   <style>
+           #theme-toggle{
+    padding: 10px 20px;
+    background-color: ;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit{
+    padding: 10px 20px;
+    background-color: 0cffeef;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+   </style>
+   <h4>Отзыв нашему сайту</h4>
+   <input type="text" id="name" required>
+                <br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+                <br>
+                <textarea placeholder="Сообщение..."></textarea>
+                <br>
+                <button type="submit">Отправить</button>
+                <script>
+        // Добавляем обработчик события нажатия кнопки
+document.getElementById('submit').addEventListener('click', function() {
+    alert('Отзыв отправлен!');
+});
+    </script>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
